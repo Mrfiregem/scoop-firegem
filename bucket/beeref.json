@@ -1,0 +1,14 @@
+{
+	"version": "0.1.1",
+	"description": "A simple reference image viewer",
+	"homepage": "https://beeref.org",
+	"license": "GPL-3.0-only",
+	"url": "https://github.com/rbreu/beeref/releases/download/v0.1.1/BeeRef-0.1.1-windows.zip",
+	"hash": "5f50ecbd318d8a4dda2e03d7f39d6cd4eb110b737b83f851bd4eb700be674d61",
+	"checkver": {
+		"github": "https://github.com/rbreu/beeref"
+	},
+	"autoupdate": {
+		"url": "https://github.com/rbreu/beeref/releases/download/v$version/BeeRef-$version-windows.zip"
+	}
+}
