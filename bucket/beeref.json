@@ -12,5 +12,11 @@
 	"autoupdate": {
 		"url": "https://github.com/rbreu/beeref/releases/download/v$version/BeeRef-$version-windows.zip",
 		"extract_dir": "BeeRef-$version"
-	}
+	},
+	"pre_install": "Move-Item $dir/BeeRef-$version.exe $dir/beeref.exe",
+	"bin": "beeref.exe",
+	"shortcuts": [
+		"beeref.exe",
+		"BeeRef"
+	]
 }
